@@ -5,7 +5,7 @@ const app = express();
 
 const nodemailer = require("nodemailer");
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 //Middleware
 app.use(express.static("public"));
