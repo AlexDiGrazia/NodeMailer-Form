@@ -2,12 +2,12 @@
   "name": "nodemailer-form",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node server.js",
     "start": "node server.js"
   },
   "keywords": [],
